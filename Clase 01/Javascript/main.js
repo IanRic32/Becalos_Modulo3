@@ -40,3 +40,4 @@ console.log(typeof new Date());             // date -- object pero varia si se q
 console.log(typeof Date());     // por que es string, no existe el tipo de dato date?
 
 console.log(typeof parseInt('10'));        // number
+console.log(typeof parseFloat('10'));        // number
