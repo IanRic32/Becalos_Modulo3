@@ -7,7 +7,18 @@ Este repositorio contiene varios proyectos desarrollados con HTML, CSS y JavaScr
 ### Clase 01
 - **Descripción:** Proyecto inicial que imprime "Hola mundo" en la consola.
 - **Archivo principal:** `main.js`
+- **Contenido de Main** Contiene los ejemplos de las impresiones de los tipos de datos en Javascript
+ * Number
+ * String
+ * Boolean
+ * Null
+ * Undefined
+ * BigInt
+ * Symbol
+ * Object
+Ejecución:
 
+![Ejecución de clase 01](/imagenes/clase1.png)
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
