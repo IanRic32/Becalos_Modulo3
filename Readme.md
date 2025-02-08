@@ -20,8 +20,14 @@ Ejecución:
 
 ![Ejecución de clase 01](/imagenes/clase1.png)
 ### Clase 02
+Se crea el programa para determinar la calificación de los estudiantes, estas calificaciones son utiles para saber si pasa o no paso o bien como es su desempeño.
+* Excelente.
+* Bien.
+* Suficiente.
+* El estudiante no aprueba.
+y se crea la lista de estudiantes, y se muesta el resumen de calificaciones, como se muestra a continuación
 
-
+![Ejecución de clase 01](/imagenes/clase2.png)
 
 ## Licencia
 
