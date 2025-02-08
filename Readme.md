@@ -19,6 +19,10 @@ Este repositorio contiene varios proyectos desarrollados con HTML, CSS y JavaScr
 Ejecución:
 
 ![Ejecución de clase 01](/imagenes/clase1.png)
+### Clase 02
+
+
+
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
