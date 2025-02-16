@@ -51,8 +51,23 @@ Y se muestran los resultados en la consola:
 
 ### Clase 04
 
+Se agrega el programa para agregar y mostrar el historial de libros que has leido.
 
+EL programa utiliza funciones para agregar y mostrar el historial de libros.
 
+Al inicio te pregunta si quieres agregar libros, mostrar el historial o salir del programa.
+Si aprietas 1 entonces te pregunta cuantos libros deseas agregar y te va solicitando  los titulos de los libros, con forme ingreses cada libro te dira que ya se subieron los libros y te muestra el titulo del libro que agregaste.
+
+Si seleccionas 2 entonces te muestra el historial de libros agregados.
+
+si seleccionas 3 entonces saldras del programa.
+
+![Ejecución de clase 04](/imagenes/clase4.png)
+![Ejecución de clase 04](/imagenes/clase4_1.png)
+![Ejecución de clase 04](/imagenes/clase4_2.png)
+![Ejecución de clase 04](/imagenes/clase4_3.png)
+![Ejecución de clase 04](/imagenes/clase4_4.png)
+![Ejecución de clase 04](/imagenes/clase4_5.png)
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
