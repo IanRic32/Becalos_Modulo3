@@ -29,6 +29,30 @@ y se crea la lista de estudiantes, y se muesta el resumen de calificaciones, com
 
 ![Ejecución de clase 01](/imagenes/clase2.png)
 
+
+### Clase 03
+
+## Clasificación de Frutas
+
+Se crea una función para la clasificacion de las frutas, de la siguiente manera:
+
+* Frutas Acidas: Kiwi, Limón, Pomelo, Naranja, Manzana
+* Frutas Semiacidas: Uva, Piña, Fresa, Membrillo, Níspero, Ciruela, Melocotón, Mango, Mandar
+* Frutas Neutras: Coco, Aguacate, Aceituna, Almendra, Avellana, Cacahuete, Nuez
+* Frutas Dulces: Plátano, Cereza, Higo, Melón, Sandía, Pera, Granada, Chirimoya
+
+Se crea un array de objetos con la información de las frutas y nos movemos en el array aplicando la función de la clasificación y muestra la información de la fruta seleccionada.
+
+![Ejemplo de clase 04](/imagenes/arrays.png)
+
+Y se muestran los resultados en la consola:
+
+![Ejecución de clase 04](/imagenes/array_console.png)
+
+### Clase 04
+
+
+
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
@@ -56,6 +80,7 @@ Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consult
     ```sh
     node main.js
     ```
+
 
 ## Contribuciones
 
