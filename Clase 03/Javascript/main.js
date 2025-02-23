@@ -108,3 +108,7 @@ console.log(`El número tiene ${cont} dígitos (sin contar el punto decimal).`);
 
 // Mostrar el resultado en una alerta
 alert(`El número tiene ${cont} dígitos (sin contar el punto decimal).`);
+
+
+
+/* */
