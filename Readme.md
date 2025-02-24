@@ -68,6 +68,73 @@ si seleccionas 3 entonces saldras del programa.
 ![Ejecución de clase 04](/imagenes/clase4_3.png)
 ![Ejecución de clase 04](/imagenes/clase4_4.png)
 ![Ejecución de clase 04](/imagenes/clase4_5.png)
+
+# Clase 05
+
+**Crear un objeto libro que contenga varias propiedades y un método para imprimir la información básica del libro.**
+
+
+![Ejecución de clase 05 objeto libro](/imagenes/clase5_libro1.png)
+
+**Propiedades del Objeto**: 
+* El objeto libro tiene varias propiedades que describen el libro:
+
+* **titulo**: El título del libro.
+
+* **autor**: El autor del libro.
+
+* **anio**: El año de publicación del libro.
+
+* **estado**: El estado del libro, que puede ser "disponible" o "prestado".
+
+* **capitulos**: Una lista de capítulos del libro.
+
+* **Método describirLibro**: Este método imprime la información básica del libro, incluyendo el título, autor, año de publicación y estado.
+
+* **Método agregarCapitulo**: Este método agrega un nuevo capítulo a la lista de capítulos del libro.
+
+* **Método eliminarCapitulo**: Este método elimina un capítulo de la lista de capítulos, si es que se encuentra en la lista.
+
+**Uso del Objeto:**
+
+* Llamamos al método describirLibro para imprimir la descripción del libro.
+
+* Mostramos la lista actual de capítulos.
+
+* Agregamos un nuevo capítulo llamado "Capítulo 4".
+
+* Mostramos la lista actualizada de capítulos.
+
+* Eliminamos el capítulo "Prólogo".
+
+* Mostramos la lista actualizada de capítulos.
+
+
+Transformando a Clase con herencia tenemos lo siguiente:
+
+![Ejecución de clase 05 objeto libro](/imagenes/clase5_libro-clase.png)
+
+**Clase Libro:**
+
+* Esta clase define las propiedades de un libro (titulo, autor, anio, estado, capitulos) y un método describirLibro para imprimir la información básica del libro.
+
+**Clase LibroCapitulos:**
+
+* Esta clase hereda de la clase Libro y agrega métodos adicionales para manejar los capítulos del libro (agregarCapitulo y eliminarCapitulo). También sobrescribe el método describirLibro para incluir la lista de capítulos en la descripción.
+
+**Función disponibilidad:**
+
+* Esta función devuelve aleatoriamente el estado del libro como "disponible" o "prestado".
+
+**Instanciación y uso:**
+
+* Se crea una instancia de LibroCapitulos y se llama a sus métodos para describir el libro, agregar un capítulo y eliminar 
+
+
+## Ejecucación del código
+
+![Resultado del código](/imagenes/clase5_ejecucion.png)
+
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
