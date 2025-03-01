@@ -1,0 +1,185 @@
+/* Variables (Herencia y consistencia de diseño) */
+:root {
+    --main-bg-color: #CCCCCC;
+    --secondary-bg-color: #f9f9f9;
+    --text-color: black;
+    --highlight-color: red;
+    --font-main: 'Arial', sans-serif;
+    --padding-main: 20px;
+}
+
+/* Estilos globales */
+body {
+    font-family: var(--font-main);
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-bg-color);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding-main);
+    background-color: var(--main-bg-color);
+}
+
+header h1 img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    flex-shrink: inherit;
+}
+
+.container-divs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    content: normal;
+    padding: 25px;
+}
+
+/* Main Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: var(--padding-main);
+    background-color: var(--secondary-bg-color);
+}
+
+.div1 img,
+.div4 img {
+    width: 75%;
+    height: auto;
+}
+
+.div2, .div3 {
+    padding: var(--padding-main);
+    background-color: var(--secondary-bg-color);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+/* Galeria */
+.galeria {
+    padding: -var(--padding-main);
+    background-color: var(--secondary-bg-color);
+}
+.galery{
+    text-align: center;
+    font-size: large;
+    padding: 15px;
+    gap: 15px;
+}
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tarjeta p {
+    margin-top: 10px;
+    color: var(--text-color);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-main);
+    background-color: var(--main-bg-color);
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: small;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.titulos{
+    justify-content: center;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: black;
+    padding: 10px;
+}
+.optiniones{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 2px;
+}

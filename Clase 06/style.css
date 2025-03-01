@@ -1,0 +1,290 @@
+/* Variables para colores y estilos globales */
+:root {
+    --main-bg-color: #BBBBBB;
+    --secondary-bg-color: #f9f9f9;
+    --highlight-color: #c78c19;
+    --text-color: black;
+    --font-main: 'Arial', sans-serif;
+}
+
+/* Estilos globales */
+body {
+    font-family: var(--font-main);
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-bg-color);
+    color: var(--text-color);
+}
+
+/* Header */
+header {
+    background-color: var(--main-bg-color);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--highlight-color);
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Productos - Tarjetas dinámicas */
+.productoos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productoos li {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid var(--text-color);
+    border-radius: 10px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.productoos li:hover {
+    transform: scale(1.05);
+    border-color: var(--highlight-color);
+}
+
+.productoos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.productoos .producto-desc {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.productoos .producto-pre {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--highlight-color);
+}
+
+/* Formularios */
+form {
+    margin: 40px 0;
+    display: grid;
+    gap: 20px;
+}
+
+.input-padron {
+    padding: 10px;
+    width: 100%;
+}
+
+.enviar {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background: var(--highlight-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.enviar:hover {
+    background: red;
+    transform: scale(1.05);
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .grid-container, .productoos {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/*La etiqueta table, representa la tabla.
+La etiqueta tr, representa la fila de la tabla.
+La etiqueta td, representa la celda de la tabla.
+La etiqueta thead, representa el encabezado de la tabla.
+La etiqueta tbody, representa el cuerpo de la tabla.
+La etiqueta th, representa la celda del encabezado de la tabla.
+La etiqueta tfoot, representa el pie de página de la tabla.*/
+
+
+
+.comentario {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comentario p {
+    margin: 0;
+}
+
+.comentario button {
+    margin-top: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.comentario button:hover {
+    background-color: #cc0000;
+}
+
+
+.comentario {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comentario p {
+    margin: 0;
+}
+
+.comentario button {
+    margin-top: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.comentario button:hover {
+    background-color: #cc0000;
+}
+
+#nombreClienteContainer {
+    margin-bottom: 10px;
+}
+
+.comentario {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comentario p {
+    margin: 0;
+}
+
+.comentario button {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.comentario button.editar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.comentario button.editar:hover {
+    background-color: #45a049;
+}
+
+.comentario button.eliminar {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.comentario button.eliminar:hover {
+    background-color: #cc0000;
+}
+
+#nombreClienteContainer {
+    margin-bottom: 10px;
+}
