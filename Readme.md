@@ -135,6 +135,80 @@ Transformando a Clase con herencia tenemos lo siguiente:
 
 ![Resultado del código](/imagenes/clase5_ejecucion.png)
 
+# Clase 06
+
+En esta clase hice una adapatación a mi pagina principal del modulo 2, se agrega la hoja de comentarios y con ello encontramos las funciones que son:
+* Agregar comentarios, que en caso de ser anonimos o publicos se muestra el nombre del cliente.
+* Poder editar su comentario.
+* Eliminar su comentario.
+
+![Resultado del código](/imagenes/clase6_comentario.png)
+<br>
+<br>
+
+![Resultado del código](/imagenes/clase6_comentario2.png)
+<br>
+<br>
+
+![Resultado del código](/imagenes/clase6_comentario3.png)
+<br>
+
+
+
+# Clase 7
+
+El objetivo de este programa es generar contraseñas seguras y personalizadas según las preferencias del usuario. Además, el programa evalúa el nivel de seguridad de la contraseña generada y permite copiarla al portapapeles con un solo clic.
+
+
+* El usuario puede especificar la longitud de la contraseña (entre 8 y 20 caracteres).
+
+**El usuario puede seleccionar los tipos de caracteres que desea incluir en la contraseña:**
+
+* Letras mayúsculas.
+
+* Letras minúsculas.
+
+* Números.
+
+* Símbolos especiales.
+
+El programa genera una contraseña aleatoria basada en las opciones seleccionadas.
+
+**Evaluación de seguridad:**
+
+* El programa evalúa la fortaleza de la contraseña generada en función de:
+
+* Longitud de la contraseña.
+
+* Complejidad (uso de mayúsculas, minúsculas, números y símbolos).
+
+**Muestra un indicador visual (barras de colores) que representa el nivel de seguridad:**
+
+* **Rojo:** Contraseña débil.
+
+* **Naranja:** Contraseña media.
+
+* **Verde:** Contraseña fuerte.
+
+**Copia al portapapeles:**
+
+* El usuario puede copiar la contraseña generada al portapapeles con un solo clic en el botón "Copiar".
+
+## Ejecución
+
+
+![Resultado del código](/imagenes/clase7_unelementos.png)
+
+
+![Resultado del código](/imagenes/clase7_doselementos.png)
+
+
+![Resultado del código](/imagenes/clase7_treselementos.png)
+
+
+![Resultado del código](/imagenes/clase7_cincoelementos.png)
+
+
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
@@ -154,10 +228,12 @@ Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consult
     ```sh
     git clone https://github.com/tu-usuario/tu-repositorio.git
     ```
+
 2. Navega a la carpeta del proyecto:
     ```sh
-    cd tu-repositorio/Clase\ 01
+    cd tu-repositorio/Clase 01
     ```
+
 3. Ejecuta el archivo JavaScript:
     ```sh
     node main.js
