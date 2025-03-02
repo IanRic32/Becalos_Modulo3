@@ -25,11 +25,15 @@ function LogIn() {
 
     if (user && user.password === password) {
         alert("Bienvenido");
+        localStorage.setItem('username', user.username);
         window.location.href = "index.html";
     } else {
         alert("Usuario o contraseña incorrectos.");
     }
 }
+
+
+
 
 function mostrarTexto() {
     let userText = document.getElementById("texto").value;
