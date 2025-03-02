@@ -209,6 +209,22 @@ El programa genera una contraseña aleatoria basada en las opciones seleccionada
 ![Resultado del código](/imagenes/clase7_cincoelementos.png)
 
 
+# Clase 08
+
+En esta clase agregamos el localstorage, además de eso, retomamos el proyecto del modulo 2 y le metemos diferentes imagenes para la mejor interación con el usuario.
+
+Con ello, tambien agregamos el movimientos entre iniciar sesión y e crear usuario nuevo en el local storage para comenzar a crear un seguimiento y conteo de usuarios.
+
+Posterior a eso se pueden ir a la pagina principal y dejar los comentarios en nuestras paginas :D
+
+Nuevo logo de la pagina
+
+![Nuevo logo](/imagenes/registro_usuarios.png)
+
+![Nuevo logo](/imagenes/nuevo_registro.png)
+
+
+
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
