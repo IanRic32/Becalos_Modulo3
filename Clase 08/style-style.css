@@ -36,6 +36,7 @@ header {
 nav {
     display: flex;
     gap: 15px;
+
 }
 
 nav a {
@@ -44,10 +45,12 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;;
+    
 }
 li {
     padding: 5px;
     padding-left: 50%;
+    list-style: none;
 }
 nav a:hover {
     color: var(--highlight-color);
