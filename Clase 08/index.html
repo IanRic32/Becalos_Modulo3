@@ -7,46 +7,52 @@
         <link rel="stylesheet" href="style-home.css">        
     </head>
     <body>
-        <header>
-            <div class="caja">
-                <h1><img src="imagenes/logo-sup.png" alt="logo superior óptica Xoloc"></h1>
-                <nav>
+        <header class="header-container">
+            <section class = "image-header">
+                <img src="../imagenes/xoloc2.png" alt="">
+            </section>
+
+            <section class = "navegador">
+                <nav class="nav-container">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="productos.html">Productos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                        <li><a href="comentarios.html">Comentarios</a></li>
+                        <li id = "elemento"><a href="index.html">Home</a></li>
+                        <li id = "elemento"><a href="productos.html">Productos</a></li>
+                        <li id = "elemento"><a href="contacto.html">Contacto</a></li>
+                        <li id = "elemento"><a href="comentarios.html">Comentarios</a></li>
                     </ul>
                 </nav>
-            </div>
-        </header>
-        <main>
-            <div class="container">
-                <div class="container-divs">
-                    <div class="div1">
-                        <img src="banner/baner_opt.png" alt="Imagen 1">
-                    </div>
-                    <div class="div2">
-                        <p>Ubicada en San Mateo, Tepotzotlan, cerca del libramiento Sur, la Óptica Xoloc traer para el mercado lo que hay de mejor para su su vista. Fundada en 2020, la Óptica Xoloc, destaca en su zona y conquista nuevos clientes diariamente.</p>
-                    </div>
-                    <div class="div3">
-                        <p class="diferencia">¿Qué nos diferencia de otras ópticas?</p>
-                        <ul>
-                            <li class="items">Atención personalizada a los clientes</li>
-                            <li class="items">Accesibilidad en diferir pagos</li>
-                            <li class="items">Localización</li>
-                            <li class="items">Accesibilidad en costos</li>
-                            <li class="items">Rapidez de entregas</li>
-                            <li class="items">Garantía en defecto de fábrica</li>
-                        </ul>
-                    </div>
-                    <div class="div4">
-                        <img src="diferenciales/diferenciales.png" alt="Imagen 2">
-                    </div>
-                </div>
-            </div>
+            </section>
 
-            <section class="galeria">
+        </header>
+
+        <section class = container>
+            <section class="galeria_description">
+                <section class="galeria">
+                    <img src="../Clase 08/banner/baner_opt.png" alt="" id="imagen-desc">
+                    <img src="../Clase 08/diferenciales/diferenciales.png" alt="" id="imagen-desc2">
+                </section>
+                <section class="description">
+                    <p>En Óptica Xoloc nos dedicamos a la venta de lentes de sol y graduados, así como también a la reparación de los mismos. <br>
+                    <br>
+                    Contamos con una amplia variedad de marcas y modelos para que encuentres el que más te guste. Además, contamos con un equipo de profesionales que te ayudarán a encontrar el lente que mejor se adapte a tus necesidades.</p>
+                    <br><br>
+                    <p>Contamos con una amplia variedad de marcas y modelos para que encuentres el que más te guste. Además, contamos con un equipo de profesionales que te ayudarán a encontrar el lente que mejor se adapte a tus necesidades.</p>
+                    <br><br>
+
+                    <h1>¿Qué nos diferencia de otras ópticas?</h1>
+                    <br><br>
+                    <ul>
+                        <li id = "elemento_desc">Atención personalizada a los clientes</li>
+                        <li id = "elemento_desc">Accesibilidad en diferir pagos</li>
+                        <li id = "elemento_desc">Localización</li>
+                        <li id = "elemento_desc">Accesibilidad en costos</li>
+                        <li id = "elemento_desc">Rapidez de entregas</li>
+                        <li id = "elemento_desc">Garantía en defecto de fábrica</li>
+                    </ul>                    
+                </section>
+            </section>
+
+            <section class = "Opiniones">
                 <h1 class="galery">Galería</h1>
                 <div class="galeria-grid">
                     <div class="tarjeta">
@@ -83,9 +89,9 @@
                         <p class="optiniones">Texto debajo de la imagen 6</p>
                     </div>
                 </div>
+
             </section>
-        </main>
-        
+        </section>
         <footer>
             <img src="imagenes/logo-sup.png" alt="Logo Óptica Xoloc">
             <p class="copyright">&copy; Copyright Óptica Xoloc - 2020</p>
