@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <section class="formulario-container">
+            <section class="login-container" id="login-container">
+                <h1>Inicio de Sesión</h1>
+                <label for="username">Username o Email:</label>
+                <input type="text" id="username" placeholder="Ingrese su usuario o correo electrónico">
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+                <button onclick="LogIn()">Iniciar Sesión</button>
+                <p id="error" class="error"></p>
+                <p>¿No tienes una cuenta? <a href="#" onclick="showRegisterForm()">Regístrate aquí</a></p>
+            </section>
+
+            <section class="login-container" id="register-container" style="display: none;">
+                <h1>Registro</h1>
+                <label for="register-username">Username:</label>
+                <input type="text" id="register-username" placeholder="Ingrese su usuario">
+                <label for="register-email">Email:</label>
+                <input type="email" id="register-email" placeholder="Ingrese su correo electrónico">
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password">
+                <button onclick="register()">Registrarse</button>
+                <p id="error" class="error"></p>
+                <p>¿Ya tienes una cuenta? <a href="#" onclick="showLoginForm()">Inicia sesión aquí</a></p>
+            </section>
+        </section>
+        <section class="banner-container"></section>
+    </section>
+    <script src="loginfunction.js"></script>
+</body>
+</html>
