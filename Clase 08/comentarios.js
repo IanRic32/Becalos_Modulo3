@@ -1,17 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const nombreClienteContainer = document.getElementById('nombreClienteContainer');
     const tipoComentarioRadios = document.querySelectorAll('input[name="tipoComentario"]');
-
-    // Mostrar u ocultar el campo del nombre del cliente según la selección
-    tipoComentarioRadios.forEach(radio => {
-        radio.addEventListener('change', function() {
-            if (this.value === 'publico') {
-                nombreClienteContainer.style.display = 'block';
-            } else {
-                nombreClienteContainer.style.display = 'none';
-            }
-        });
-    });
 
     // Manejar el envío del formulario
     document.getElementById('comentarioForm').addEventListener('submit', function(event) {
@@ -24,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const tipoComentario = document.querySelector('input[name="tipoComentario"]:checked').value;
 
         // Obtener el nombre del cliente si es un comentario público
-        const nombreCliente = tipoComentario === 'publico' ? document.getElementById('nombreCliente').value : 'Anónimo';
+        const nombreCliente = tipoComentario === 'publico' ? localStorage.getItem('username') : 'Anónimo';
 
         // Crear un nuevo elemento de comentario
         const nuevoComentario = document.createElement('div');
@@ -42,11 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Agregar el comentario a la lista
         document.getElementById('comentariosLista').appendChild(nuevoComentario);
 
-        // Limpiar el campo de texto y el nombre del cliente
+        // Limpiar el campo de texto
         document.getElementById('comentario').value = '';
-        if (tipoComentario === 'publico') {
-            document.getElementById('nombreCliente').value = '';
-        }
     });
 });
 
