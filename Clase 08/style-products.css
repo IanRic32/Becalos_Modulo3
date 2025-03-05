@@ -1,0 +1,220 @@
+.header-container {
+background-color: #BBBBBB;
+border-bottom: 1px solid #e0e0e0;
+width: 100%;
+margin: auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+.container-navegacion {
+align-items: center;
+width: 100%;
+padding: 20px;
+}
+
+.container-navegacion ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none; /* Elimina los estilos de lista */
+    padding: 0;
+    margin: 0;
+}
+
+
+.container-navegacion li {
+    margin-left: 20px; /* Espacio entre los elementos del nav */
+}
+
+.container-navegacion li:first-child {
+    margin-left: 0; /* Elimina el margen del primer elemento */
+}
+.container-image {
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#logo {
+  align-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  
+}
+#elemento-nav{
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+/* estilos del centro*/
+
+.container-body{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    background-color: #FFCCCC;
+    border-top: 1px solid #e0e0e0;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.container-marcas ul {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    list-style: none; /* Elimina los estilos de lista */
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+.container-marcas li {
+    margin-left: 20px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.marcas{
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.tipo_lentes ul{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    width: 100%;
+    padding-top: 20px;
+}
+
+.tratamientos ul{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    list-style: none; /* Elimina los estilos de lista */
+    padding: 10px;
+    margin: 10px;
+}
+
+.novedades ul{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    list-style: none; /* Elimina los estilos de lista */
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#imagenes{
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    border-radius: 40px;
+    filter: brightness(1);
+}
+
+#lentes{
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.tratamientos li {
+    margin-left: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.tipo_lentes li{
+    margin-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+.imagenes-tra{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,50%);
+    
+}
+
+#imagen-tratamiento{
+    width: 200px;
+    height: 200px;
+    padding-left: 30%;
+    border-radius: 100px;
+    filter: brightness(1.5);
+    mix-blend-mode: multiply;
+    padding-bottom: 10px;
+}
+
+.imagenes-marcas{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,50%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("https://images.pexels.com/photos/816608/pexels-photo-816608.jpeg?auto=compress&cs=tinysrgb&w=600") ;
+    max-width: 90%;
+    border-radius: 20px;
+
+}
+
+#imagen-marca{
+    width: 250px;
+    height: 190px;
+    border-radius: 20px;
+    padding-top: 10px;
+    width: 80%;
+    padding-bottom: 10px;
+    
+}
+
+.container-navegacion li i {
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    text-decoration: none;
+}
+
+.encabezado{
+    align-items: center;
+    width: 60%;
+    padding-left: 35%;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+}
+
+
+/* Estilos del footer*/
+.footer-container {
+    background-color:#FFC5E2;
+    border-top: 1px solid #e0e0e0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+
+#logo-footer {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+

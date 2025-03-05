@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caja de Comentarios</title>
     <link rel="stylesheet" href="style-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="caja">
             <h1><img src="imagenes/logo-sup.png" alt="logo superior Óptica Xoloc"></h1>
-            <nav>
+            <button id="menu-toggle" class="menu-toggle">
+                <i class="fas fa-bars"></i> <!-- Ícono de hamburguesa -->
+            </button>
+            <nav id="nav-menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="productos.html"><i class="fas fa-glasses"></i> Productos</a></li>
+                    <li><a href="contacto.html"><i class="fas fa-phone"></i> Contacto</a></li>
                 </ul>
             </nav>         
         </div>
@@ -41,16 +45,22 @@
             </form>
 
             <div id="comentariosLista">
-                <!-- Aquí se mostrarán los comentarios -->
+                
             </div>
         </section>
     </main>
 
     <footer>
-        <img src="imagenes/logo-sup.png" alt="Logo Óptica Xoloc">
-        <p class="copyright">&copy; Copyright Óptica Xoloc - 2020</p>
+        <section class="footer-container">
+            <section class="image-container-footer">
+                <img src="../imagenes/xoloc2.png" alt="Logo Óptica Xoloc" id="logo-footer">
+            </section>
+            <section class="copyright-container">
+                <p class="copyright">&copy; Copyright Óptica Xoloc - 2020</p>
+            </section>
+        </section>
     </footer>
-
     <script src="comentarios.js"></script>
+    <script src="hamburguer.js"></script>
 </body>
 </html>

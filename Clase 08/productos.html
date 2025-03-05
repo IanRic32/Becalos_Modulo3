@@ -4,54 +4,150 @@
         <meta charset="UTF-8">
         <title> Productos --> Óptica Xoloc</title>
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style-style.css">
+        <link rel="stylesheet" href="style-products.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     </head>
 
     <body>
         <header>
-            <div class="caja" >
-                <h1><img src="imagenes/logo-sup.png" alt="Logo óptica Xoloc"></h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="productos.html">Productos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                        <li><a href="comentarios.html">Comentarios</a></li>
-                    </ul>
-                </nav>         
-            </div>
+            <section class = "header-container">
+                <section class = "container-image">
+                    <img src="imagenes/logo-sup.png" alt="Logo óptica Xoloc" id="logo">
+                </section>
+                <section class = "container-navegacion">
+                    <nav>
+                        <ul>
+                            <li id="elemento-nav">
+                                <a href="index.html">
+                                    <i class="fas fa-home"></i> Home
+                                </a>
+                            </li>
+                            <li id="elemento-nav">
+                                <a href="productos.html">
+                                    <i class="fas fa-glasses"></i> Productos
+                                </a>
+                            </li>
+                            <li id="elemento-nav">
+                                <a href="contacto.html">
+                                    <i class="fas fa-phone"></i> Contacto
+                                </a>
+                            </li>
+                            <li id="elemento-nav">
+                                <a href="comentarios.html">
+                                    <i class="fas fa-pencil-alt"></i> Comentarios
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>      
+                </section>
+            </section>
         </header>
-        <main>
-            <ul class="productoos">
-                <li>
-                    <h2>
-                        Lentes de marca
-                        <img src="imagenes/lentes.png" alt="lentes">
-                        <p class="producto-desc">Vogue: $1,500<br>Chanel: $2,500<br>Ray-Ban: $1,300</p>
-                    </h2>
-                </li>
-                <li>
-                    <h2>
-                        Pupilentes
-                        <img src="imagenes/pupileas.jpg" alt="pupilentes">
-                        <p class="producto-desc">Esfericos: $700 <br>Torico: $800 </p>
-                        
-                    </h2>
-                </li>
-                <li>
-                    <h2>
-                        Tratamiento de Micas
-                        <img src="imagenes/entintadas.png" alt="micas entintadas">
-                        <p class="producto-desc">Entintado: $100 <br>Entintado desvanecido: $150 <br> Fotocromatico: $600 <br>Fotocromatico Color: $700</p>
-                        
-                    </h2>
-                </li>
-            </ul>
-        </main>
-        <footer>
-            <img src="imagenes/logo-sup.png" alt="Logo Óptica Xoloc inferior">
+        <section class="container-body">
+            <section class ='container-marcas'> 
+                <section class="encabezado"> Marcas</section>
+                <section class="marcas">
+                    <ul>
+                        <li id="elemento-marca">Dorothy Gaynor</li>
+                        <li id="elemento-marca">Fila</li>
+                        <li id="elemento-marca">Panam</li>
+                        <li id="elemento-marca">Ozono</li>
+                        <li id="elemento-marca">Cloe</li>
+                        <li id="elemento-marca">ONX</li>
+                        <li id="elemento-marca">#Hashtag</li>
+                        <li id="elemento-marca">Seima</li>
+                        <li id="elemento-marca">Economico</li>
+                    </ul>
+                </section>
+                
+                <section class="imagenes-marcas">
+                    <img src="imagenes/onx.jpeg" alt="" id = "imagen-marca">
+                    <img src="imagenes/dorothy.jpeg" alt="" id = "imagen-marca">
+                    <img src="imagenes/fila.jpeg" alt="" id = "imagen-marca">
+                    <img src="imagenes/seima.jpeg" alt="" id = "imagen-marca">
+                    <img src="imagenes/panam.jpeg" alt="" id = "imagen-marca">
+
+                </section>
+                
+
+            </section>
+        
+
+            <section class = 'container-trata'>
+                    <section class="encabezado">Tratamientos </section>
+                    <section class="tratamientos">
+                        <ul>
+                            <li>Antireflejante</li>
+                            <li>Antireflejante Blueray</li>
+                            <li>Fotocromatico</li>
+                            <li>Fotocromatico Colors</li>
+                            <li>Entintado</li>
+                            <li>Progresivo</li>
+                            <li>Bifocal</li>
+                            <li>Policarbonato</li>
+                        </ul>
+                    </section>
+
+                <section class="imagenes-tra">
+                    <img src="imagenes/lentes_2.jpg" alt="" id = "imagen-tratamiento">
+                    <img src="imagenes/pexels0.jpg" alt="" id="imagen-tratamiento">
+
+                    <img src="imagenes/pexels1.jpg" alt="" id = "imagen-tratamiento">
+                    <img src="imagenes/pexels3.jpg" alt="" id="imagen-tratamiento">
+
+                    <img src="imagenes/ian3.jpg" alt="" id = "imagen-tratamiento">
+                    <img src="imagenes/ian4.jpg" alt="" id="imagen-tratamiento">
+                </section>
+            </section>
+
+            <section class = 'container-tip-lentes'>
+                <section class="encabezado"> Tipo de lentes</section> 
+                <section class="tipo_lentes">
+                    <ul>
+                        <li id="lentes">Armazon
+                            <section class="Armazones">
+                                <br>
+                                <img src="imagenes/lentes_libro.jpg" alt="" id="imagenes"> <br>
+                                Lentes mas adecuados para graduaciones bajas e intermedias o de descanso para usuarios de lentes de contacto
+                            </section>
+                        </li>
+                        <li id="lentes">Lente de contacto
+                            <section class="lentes_contacto">
+                                <img src="imagenes/pupileas.jpg" alt="" id="imagenes">
+                                <br>
+
+                                Adecuados para graduaciones altas, miopias, hipermetropias, astigmatismos y esteticos.
+                            </section>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+            <section class = 'container-tip-lentes'>
+                <section class ='encabezado'>Novedades</section>
+                <section class="novedades">
+                    <ul>
+                        <li>
+                            <section class = "aferica">
+                                Mica asferica
+                            </section>
+                        </li>
+                        <li><section class="hindex">
+                            Super Hindex 1.67
+                        </section></li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+
+    <section class ='footer-container'>
+        <section class ='container-image-footer'>
+            <img src="../imagenes/xoloc2.png" alt="Logo Óptica Xoloc inferior" id="logo-footer">
+        </section>
+        <section class ='footer-container-copyright'>
             <p class="copyright">&copy Copyright Óptica Xoloc - 2020</p>
-        </footer>
+        </section>
+
+    </section>
     </body>
 
 
